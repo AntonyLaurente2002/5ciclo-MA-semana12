@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB0997022B080C8800BCB7F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB0997012B080C8800BCB7F5 /* Assets.xcassets */; };
+		FBB64CB82AFED2BA0060ED2E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB64CB72AFED2BA0060ED2E /* MainView.swift */; };
+		FBB64CBA2AFED44F0060ED2E /* WishlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB64CB92AFED44F0060ED2E /* WishlistView.swift */; };
+		FBB64CBC2AFED46C0060ED2E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB64CBB2AFED46C0060ED2E /* ProfileView.swift */; };
+		FBB64CBE2AFED4C20060ED2E /* InboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB64CBD2AFED4C20060ED2E /* InboxView.swift */; };
+		FBB64CC02AFED4F70060ED2E /* TripsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB64CBF2AFED4F70060ED2E /* TripsView.swift */; };
+		FBB64CC22AFEDA2B0060ED2E /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB64CC12AFEDA2B0060ED2E /* TabItem.swift */; };
 		FBE7A6FC2AF59471003EB144 /* airbnb_clone_bApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE7A6FB2AF59471003EB144 /* airbnb_clone_bApp.swift */; };
 		FBE7A6FE2AF59471003EB144 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE7A6FD2AF59471003EB144 /* ContentView.swift */; };
-		FBE7A7002AF59472003EB144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBE7A6FF2AF59472003EB144 /* Assets.xcassets */; };
 		FBE7A7032AF59472003EB144 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBE7A7022AF59472003EB144 /* Preview Assets.xcassets */; };
 		FBE7A70B2AF59B8A003EB144 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBE7A70A2AF59B8A003EB144 /* LaunchScreen.storyboard */; };
 		FBE7A70E2AF5A184003EB144 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE7A70D2AF5A184003EB144 /* Category.swift */; };
@@ -17,10 +23,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB0997012B080C8800BCB7F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBB64CB72AFED2BA0060ED2E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		FBB64CB92AFED44F0060ED2E /* WishlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistView.swift; sourceTree = "<group>"; };
+		FBB64CBB2AFED46C0060ED2E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		FBB64CBD2AFED4C20060ED2E /* InboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxView.swift; sourceTree = "<group>"; };
+		FBB64CBF2AFED4F70060ED2E /* TripsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsView.swift; sourceTree = "<group>"; };
+		FBB64CC12AFEDA2B0060ED2E /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
 		FBE7A6F82AF59471003EB144 /* airbnb-clone-b.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "airbnb-clone-b.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBE7A6FB2AF59471003EB144 /* airbnb_clone_bApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airbnb_clone_bApp.swift; sourceTree = "<group>"; };
 		FBE7A6FD2AF59471003EB144 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		FBE7A6FF2AF59472003EB144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBE7A7022AF59472003EB144 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FBE7A70A2AF59B8A003EB144 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBE7A70D2AF5A184003EB144 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
@@ -38,6 +50,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FBB64CB62AFED26B0060ED2E /* views */ = {
+			isa = PBXGroup;
+			children = (
+				FBE7A6FD2AF59471003EB144 /* ContentView.swift */,
+				FBB64CB72AFED2BA0060ED2E /* MainView.swift */,
+				FBB64CB92AFED44F0060ED2E /* WishlistView.swift */,
+				FBB64CBF2AFED4F70060ED2E /* TripsView.swift */,
+				FBB64CBB2AFED46C0060ED2E /* ProfileView.swift */,
+				FBB64CBD2AFED4C20060ED2E /* InboxView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
 		FBE7A6EF2AF59471003EB144 = {
 			isa = PBXGroup;
 			children = (
@@ -57,12 +82,12 @@
 		FBE7A6FA2AF59471003EB144 /* airbnb-clone-b */ = {
 			isa = PBXGroup;
 			children = (
+				FBB64CB62AFED26B0060ED2E /* views */,
 				FBE7A70C2AF5A0FC003EB144 /* components */,
 				FBE7A7092AF59B2B003EB144 /* onboarding */,
 				FBE7A6FB2AF59471003EB144 /* airbnb_clone_bApp.swift */,
-				FBE7A6FD2AF59471003EB144 /* ContentView.swift */,
-				FBE7A6FF2AF59472003EB144 /* Assets.xcassets */,
 				FBE7A7012AF59472003EB144 /* Preview Content */,
+				FB0997012B080C8800BCB7F5 /* Assets.xcassets */,
 			);
 			path = "airbnb-clone-b";
 			sourceTree = "<group>";
@@ -88,6 +113,7 @@
 			children = (
 				FBE7A70D2AF5A184003EB144 /* Category.swift */,
 				FBE7A70F2AF5AC54003EB144 /* reels.swift */,
+				FBB64CC12AFEDA2B0060ED2E /* TabItem.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -151,8 +177,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBE7A70B2AF59B8A003EB144 /* LaunchScreen.storyboard in Resources */,
+				FB0997022B080C8800BCB7F5 /* Assets.xcassets in Resources */,
 				FBE7A7032AF59472003EB144 /* Preview Assets.xcassets in Resources */,
-				FBE7A7002AF59472003EB144 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,9 +189,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBB64CC02AFED4F70060ED2E /* TripsView.swift in Sources */,
 				FBE7A6FE2AF59471003EB144 /* ContentView.swift in Sources */,
+				FBB64CBA2AFED44F0060ED2E /* WishlistView.swift in Sources */,
 				FBE7A7102AF5AC54003EB144 /* reels.swift in Sources */,
 				FBE7A6FC2AF59471003EB144 /* airbnb_clone_bApp.swift in Sources */,
+				FBB64CB82AFED2BA0060ED2E /* MainView.swift in Sources */,
+				FBB64CBE2AFED4C20060ED2E /* InboxView.swift in Sources */,
+				FBB64CBC2AFED46C0060ED2E /* ProfileView.swift in Sources */,
+				FBB64CC22AFEDA2B0060ED2E /* TabItem.swift in Sources */,
 				FBE7A70E2AF5A184003EB144 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
